@@ -1,6 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 Storyblok Minimal Starter
+This is a Nuxt3 Starter Kit for Storyblok with Vite, Vue3, TypeScript, Pug, SCSS and TailwindCSS!
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+For more info:
+- [Nuxt3 documentation](https://v3.nuxtjs.org)
+- [Story Docs](https://www.storyblok.com/docs/guide/introduction)
+- [Storyblok - Nuxt Hub](https://www.storyblok.com/tc/nuxtjs)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## Setup
 
