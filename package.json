@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.2.0",
+    "@storyblok/nuxt": "^4.0.1",
+    "axios": "^0.27.2",
+    "nuxt": "3.0.0-rc.4",
+    "vite-plugin-pug": "^0.3.1"
+  }
+}
