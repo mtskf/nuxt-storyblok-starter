@@ -10,11 +10,16 @@ Footer
 <script setup>
 </script>
 
-<style lang="scss" scoped>
-main { @apply pt-20 pb-20; }
-</style>
+<style lang="scss">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-<style>
+body {
+  // with dark mode
+  // @apply bg-white dark:bg-black;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.3s;
@@ -25,4 +30,8 @@ main { @apply pt-20 pb-20; }
 .page-leave-to {
   opacity: 0;
 }
+</style>
+
+<style lang="scss" scoped>
+main { @apply pt-20 pb-20; }
 </style>
