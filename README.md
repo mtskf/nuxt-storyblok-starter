@@ -6,6 +6,7 @@ For more info:
 - [Story Docs](https://www.storyblok.com/docs/guide/introduction)
 - [Storyblok - Nuxt Hub](https://www.storyblok.com/tc/nuxtjs)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.com/)
 
 ## Setup
 
@@ -26,17 +27,22 @@ Create .env file and set storyblok's API token:
 
 ```bash
 touch .env
+open .env
 ```
 
 ```.env
 STORYBLOK_TOKEN=....
 ```
 
+Setup Navigation menu
+https://www.storyblok.com/tp/create-dynamic-menus-in-storyblok-and-nuxt
+
 
 ## Development Server
 
 Start the development server on http://localhost:3000
-(Editor: http://localhost:3000/editor.html)
+- Editor: http://localhost:3000/editor.html
+- Tailwind Viewer: http://localhost:3000/_tailwind
 
 ```bash
 npm run dev
