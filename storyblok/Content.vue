@@ -5,7 +5,7 @@ article(v-html="richtext" :class="{ 'two-col': blok.two_column }")
 <script setup>
 const props = defineProps({ blok: Object });
 const storyblokApi = useStoryblokApi();
-const richtext = computed(() => storyblokApi.richTextResolver.render(props.blok.wysiwyg));
+const richtext = computed(() => storyblokApi.richTextResolver.render(props.blok.richtext));
 </script>
 
 
@@ -13,5 +13,6 @@ const richtext = computed(() => storyblokApi.richTextResolver.render(props.blok.
 article {
   @apply mx-auto prose lg:prose-xl prose-slate prose-img:rounded prose-a:text-blue-600;
   &.two-col { @apply md:columns-2 md:gap-10 lg:gap-12; }
+  & >>> li > p { margin: 0; }
 }
 </style>
